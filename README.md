@@ -4,8 +4,8 @@ This repository contains my submission for the Nablasol Front-End Developer Test
 
 | Task | Description | Steps Implemented |
 |------|-------------|--------------------|
-| **Task 1** | Project creation wizard | 4 of 6 steps |
-| **Task 2** | Account creation wizard | 2 of 3 steps |
+| **Task 1** | Project creation | 4 of 6 steps |
+| **Task 2** | Account creation | 2 of 3 steps |
 
 Both applications are built as separate Vite + React projects, each with its own dependencies, so they can be run, tested, and deployed independently.
 
@@ -16,7 +16,7 @@ Both applications are built as separate Vite + React projects, each with its own
 | Layer | Choice | Reasoning |
 |---|---|---|
 | Framework | React (via Vite) | Fast setup, no boilerplate needed for a single-flow wizard with no routing requirements |
-| Language | JavaScript (ES6+) | Matches the brief's requirement of "a JavaScript framework" |
+| Language | JavaScript (ES6+) | Matches the brief's requirement of " JavaScript framework" |
 | Styling | Tailwind CSS | Utility-first approach for quickly matching the provided pixel designs |
 | State Management | React `useState` | Sufficient for a form of this scale; avoids over-engineering with external libraries |
 | Persistence | Browser `localStorage` | Explicitly required in the brief — form data survives step navigation and page refresh |
@@ -118,7 +118,7 @@ The app runs at `http://localhost:5173` by default (or the next available port i
 
 ## Responsiveness
 
-Both wizards use responsive Tailwind classes (form fields stack to a single column on smaller screens) and were tested by resizing the browser window down to mobile widths.
+Both use responsive Tailwind classes (form fields stack to a single column on smaller screens) and were tested by resizing the browser window down to mobile widths.
 
 ---
 
