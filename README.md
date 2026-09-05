@@ -16,7 +16,7 @@ Both applications are built as separate Vite + React projects, each with its own
 | Layer | Choice | Reasoning |
 |---|---|---|
 | Framework | React (via Vite) | Fast setup, no boilerplate needed for a single-flow wizard with no routing requirements |
-| Language | JavaScript (ES6+) | Matches the brief's requirement of " JavaScript framework" |
+| Language | JavaScript (ES6+) | Matches the brief requirement of "JavaScript framework" |
 | Styling | Tailwind CSS | Utility-first approach for quickly matching the provided pixel designs |
 | State Management | React `useState` | Sufficient for a form of this scale; avoids over-engineering with external libraries |
 | Persistence | Browser `localStorage` | Explicitly required in the brief — form data survives step navigation and page refresh |
@@ -60,7 +60,7 @@ Nablasol_tasks/
 
 ---
 
-## Task 1 — Project Creation Wizard
+## Task 1 — Project Creation 
 
 Replicates a 6-step "Create a project" flow; the following 4 consecutive steps are implemented:
 
@@ -89,7 +89,7 @@ The app runs at `http://localhost:5173` by default.
 
 ---
 
-## Task 2 — Account Creation Wizard
+## Task 2 — Account Creation 
 
 Replicates the first 2 of a 3-step "Create New Account" flow:
 
