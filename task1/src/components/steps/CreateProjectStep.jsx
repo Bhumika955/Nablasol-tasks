@@ -56,7 +56,7 @@ function CreateProjectStep({ formData, updateField }) {
 
       <div className="mb-4">
         <label className="block font-medium mb-1">Notes</label>
-        <textarea
+        <textarea 
           value={formData.notes}
           onChange={(e) => updateField('notes', e.target.value)}
           placeholder="Optional"
