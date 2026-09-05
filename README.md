@@ -1,5 +1,3 @@
-# Nablasol Front-End Developer Test
-
 ## Overview
 
 This repository contains my submission for the Nablasol Front-End Developer Test. It includes two independent React applications, each replicating a multi-step form wizard from the provided design references.
